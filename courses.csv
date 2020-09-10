@@ -1,0 +1,69 @@
+codes,courseLink,courseName,semester,teachers
+31097,https://mcs.unibnf.ch/courses/3d-geometry-processing/,3D Geometry Processing,S2021,David Bommes
+11072,https://mcs.unibnf.ch/courses/advanced-networking-and-future-internet/,Advanced Networking and Future Internet,A2020,Torsten Braun
+13000/23000,https://mcs.unibnf.ch/courses/advanced-software-engineering/,Advanced Software Engineering,A2020,Jacques Pasquier-Rocha
+53086,https://mcs.unibnf.ch/courses/advanced-topics-in-decision-support/,Advanced Topics in Decision Support,S2021,Bernard Ries
+31088/61088,https://mcs.unibnf.ch/courses/advanced-topics-in-machine-learning/,Advanced Topics in Machine Learning,S2021,Paolo Favaro
+31099/61099,https://mcs.unibnf.ch/courses/applied-optimization/,Applied Optimization,A2020,David Bommes
+43024,https://mcs.unibnf.ch/courses/automata-on-infinite-structures/,Automata on Infinite Structures,A2020,Ulrich Ultes-Nitsche
+63021,https://mcs.unibnf.ch/courses/big-data-infrastructures/,Big Data Infrastructures,A2020,Philippe Cudré-Mauroux
+12083/62083,https://mcs.unibnf.ch/courses/cloud-computing/,Cloud Computing,S2021,Lorenzo Leonini
+41026,https://mcs.unibnf.ch/courses/computational-complexity/,Computational Complexity,S2021,Thomas Strahm
+31062/61062,https://mcs.unibnf.ch/courses/computer-vision/,Computer Vision,A2020,Paolo Favaro
+22027/62027,https://mcs.unibnf.ch/courses/concurrency-multi-core-programming-and-data-processing/,Concurrency: Multi-core Programming and Data Processing,A2020,Pascal Felber
+11106/41106,https://mcs.unibnf.ch/courses/cryptographic-protocols/,Cryptographic Protocols,S2021,Christian Cachin
+11100/41100,https://mcs.unibnf.ch/courses/cryptography/,Cryptography,A2020,Christian Cachin
+33006,https://mcs.unibnf.ch/courses/design-and-graphics-programming-for-game-development/,Design and Graphics Programming for Game Development,S2021,Maurizio Rigamonti
+12007,https://mcs.unibnf.ch/courses/distributed-systems/,Distributed Systems,A2020,Peter Kropf & Valerio Schiavoni
+52028,https://mcs.unibnf.ch/courses/egovernment-frameworks/,EGovernment Frameworks,S2021,Alain Sandoz
+53105,https://mcs.unibnf.ch/courses/fuzzy-systems-engineering/,Fuzzy Systems Engineering,A2020,Edy Portmann
+53104,https://mcs.unibnf.ch/courses/fuzzy-systems-modeling/,Fuzzy Systems Modeling,S2021,Edy Portmann
+53085,https://mcs.unibnf.ch/courses/graph-theory-and-applications/,Graph Theory and Applications,A2020,David Schindl
+32030,https://mcs.unibnf.ch/courses/information-retrieval-and-the-internet/,Information Retrieval and the Internet,A2020,Martin Braschler
+53073,https://mcs.unibnf.ch/courses/integer-programming/,Integer Programming,S2021,Reinhard Bürgy
+03008,https://mcs.unibnf.ch/courses/interdisciplinary-computing/,Interdisciplinary Computing,A2020,Michèle Courant
+11043,https://mcs.unibnf.ch/courses/internet-of-things/,Internet of Things,S2021,Torsten Braun
+53084/63084,https://mcs.unibnf.ch/courses/introduction-to-recommender-systems/,Introduction to Recommender Systems,S2021,Edy Portmann & Luis Terán
+41055,https://mcs.unibnf.ch/courses/justification-logic/,Justification Logic,A2020,Thomas Studer
+32032/62032,https://mcs.unibnf.ch/courses/machine-learning-and-data-mining/,Machine Learning and Data Mining,A2020,Marcelo Pasin
+53098,https://mcs.unibnf.ch/courses/metamodeling/,Metamodeling,S2021,Hans-Georg Fill
+03035/33035,https://mcs.unibnf.ch/courses/multimodal-user-interfaces/,Multimodal User Interfaces,S2021,Denis Lalanne
+33082/63082,https://mcs.unibnf.ch/courses/pattern-recognition/,Pattern Recognition,S2021,Andreas Fischer
+21048,https://mcs.unibnf.ch/courses/programming-languages/,Programming Languages,S2021,Oscar Nierstrasz
+53038,https://mcs.unibnf.ch/courses/quantitative-pricing-and-revenue-optimization/,Quantitative Pricing and Revenue Optimization,A2020,Reinhard Bürgy
+02810,https://mcs.unibnf.ch/courses/rd-workshop/,R&D Workshop,S2021,Jacques Savoy & Peter Kropf
+11795,https://mcs.unibnf.ch/courses/scientific-reading-in-computer-networks/,Scientific Reading in Computer Networks,A2020,Torsten Braun
+11811,https://mcs.unibnf.ch/courses/scientific-reading-in-computer-networks-2/,Scientific Reading in Computer Networks,S2021,Torsten Braun
+11796,https://mcs.unibnf.ch/courses/scientific-writing-in-computer-networks/,Scientific Writing in Computer Networks,A2020,Torsten Braun
+11812,https://mcs.unibnf.ch/courses/scientific-writing-in-computer-networks-2/,Scientific Writing in Computer Networks,S2021,Torsten Braun
+12016,https://mcs.unibnf.ch/courses/security/,Security,A2020,Hervé Sanglard
+33822/63822,https://mcs.unibnf.ch/courses/seminar-affective-computing-for-empathic-behaviour-change/,Seminar Affective Computing for Empathic Behaviour Change,A2020,Denis Lalanne & Elena Mugellini & Omar Abou Khaled
+33798/63798,https://mcs.unibnf.ch/courses/seminar-chatbots-and-conversational-agents/,Seminar Chatbots and Conversational Agents,A2020,Elena Mugellini & Omar Abou Khaled & Philippe Cudré-Mauroux
+11799,https://mcs.unibnf.ch/courses/seminar-communication-and-distributed-systems/,Seminar Communication and Distributed Systems,A2020,Torsten Braun
+11814,https://mcs.unibnf.ch/courses/seminar-communication-and-distributed-systems-2/,Seminar Communication and Distributed Systems,S2021,Torsten Braun
+31800,https://mcs.unibnf.ch/courses/seminar-computer-graphics-and-geometry-processing/,Seminar Computer Graphics and Geometry Processing,A2020,David Bommes
+31815,https://mcs.unibnf.ch/courses/seminar-computer-graphics-and-geometry-processing-2/,Seminar Computer Graphics and Geometry Processing,S2021,David Bommes
+53817/63817,https://mcs.unibnf.ch/courses/seminar-computing-with-words/,Seminar Computing with Words,S2021,Edy Portmann
+11832/41832,https://mcs.unibnf.ch/courses/seminar-cryptography-and-data-security/,Seminar Cryptography and Data Security,A2020,Christian Cachin & Giorgia Marson
+11848,https://mcs.unibnf.ch/courses/seminar-cryptography-and-data-security-2/,Seminar Cryptography and Data Security,S2021,Christian Cachin & Giorgia Marson
+63802,https://mcs.unibnf.ch/courses/seminar-data-science/,Seminar Data Science,A2020,Mourad Khayati
+33823/63823,https://mcs.unibnf.ch/courses/seminar-explainable-ai-human-computer-interaction-meets-artificial-intelligence/,Seminar Explainable AI – Human-Computer Interaction meets Artificial Intelligence,S2021,Elena Mugellini & Omar Abou Khaled & Rolf Ingold
+13803/43803,https://mcs.unibnf.ch/courses/seminar-foundations-of-dependable-systems-i/,Seminar Foundations of Dependable Systems I,A2020,Ulrich Ultes-Nitsche
+13819/43819,https://mcs.unibnf.ch/courses/seminar-foundations-of-dependable-systems-ii/,Seminar Foundations of Dependable Systems II,S2021,Ulrich Ultes-Nitsche
+53835/63835,https://mcs.unibnf.ch/courses/seminar-hands-on-recommender-systems/,Seminar Hands-On Recommender Systems,A2020,Edy Portmann & Luis Terán
+53804/63804,https://mcs.unibnf.ch/courses/seminar-human-smart-cities/,Seminar Human Smart Cities,A2020,Edy Portmann
+33828/63828,https://mcs.unibnf.ch/courses/seminar-human-computer-interaction-i/,Seminar Human-Computer Interaction I,A2020,Denis Lalanne & Julien Nembrini
+33844/63844,https://mcs.unibnf.ch/courses/seminar-human-computer-interaction-ii/,Seminar Human-Computer Interaction II,S2021,Denis Lalanne
+03805,https://mcs.unibnf.ch/courses/seminar-interdisciplinary-issues-in-ict/,Seminar Interdisciplinary Issues in ICT,A2020,Michèle Courant
+03820,https://mcs.unibnf.ch/courses/seminar-interdisciplinary-issues-in-ict-2/,Seminar Interdisciplinary Issues in ICT,S2021,Michèle Courant
+41806,https://mcs.unibnf.ch/courses/seminar-logic-and-theoretical-computer-science/,Seminar Logic and Theoretical Computer Science,A2020,George Metcalfe & Thomas Strahm & Thomas Studer
+41821,https://mcs.unibnf.ch/courses/seminar-logic-and-theoretical-computer-science-2/,Seminar Logic and Theoretical Computer Science,S2021,Thomas Strahm & Thomas Studer
+31801/61801,https://mcs.unibnf.ch/courses/seminar-machine-learning-and-artificial-intelligence/,Seminar Machine Learning and Artificial Intelligence,A2020,Paolo Favaro
+31816/61816,https://mcs.unibnf.ch/courses/seminar-machine-learning-and-artificial-intelligence-2/,Seminar Machine Learning and Artificial Intelligence,S2021,Paolo Favaro
+21809,https://mcs.unibnf.ch/courses/seminar-software-composition/,Seminar Software Composition,A2020,Oscar Nierstrasz
+21792,https://mcs.unibnf.ch/courses/seminar-software-composition-2/,Seminar Software Composition,S2021,Oscar Nierstrasz
+63091,https://mcs.unibnf.ch/courses/social-media-analytics/,Social Media Analytics,S2021,Mourad Khayati & Philippe Cudré-Mauroux
+21045,https://mcs.unibnf.ch/courses/software-modeling-and-analysis/,Software Modeling and Analysis,A2020,Oscar Nierstrasz
+03018,https://mcs.unibnf.ch/courses/user-centered-design/,User Centered Design,A2020,Agnes Lisowska Masson & Denis Lalanne
+13081/43081,https://mcs.unibnf.ch/courses/applied-cryptography/,Verification of Cyber-physical Systems,S2021,Ulrich Ultes-Nitsche
+
