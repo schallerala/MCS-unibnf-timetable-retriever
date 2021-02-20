@@ -1,7 +1,12 @@
-import request from 'request';
-import fs from 'fs';
-import cheerio from 'cheerio';
-import path from 'path';
+import { existsSync,
+    statSync,
+    unlinkSync,
+    readFileSync,
+    writeFileSync,
+    mkdirSync } from 'fs';
+const cheerio = require('cheerio');
+import { join } from 'path';
+import got from 'got';
 const md5 = require('md5');
 
 export default class RequestPage {
@@ -16,26 +21,17 @@ export default class RequestPage {
         this.simpleUrl = this.url.replace(/.+\?/, '');
     }
 
-    public request(): Promise<ParsedAnswer> {
+    public async request(): Promise<ParsedAnswer> {
         if (this.cacheManager.hasCachedFile(this.filename)) {
             console.warn(`getting ${this.simpleUrl} from cache`);
             const cache = this.cacheManager.getCachedFile(this.filename);
-            return Promise.resolve(new ParsedAnswer(this.url, cache));
+            return new ParsedAnswer(this.url, cache);
         }
 
-        return new Promise<ParsedAnswer>((resolve, reject) => {
-            const callback = (error: any, response: any, body: any) => {
-                if (error) {
-                    reject(error);
-                    return;
-                }
-                this.cacheManager.addFile(this.filename, body);
-                resolve(new ParsedAnswer(this.url, body));
-            };
-
-            console.warn(`Requesting: ${this.simpleUrl}`);
-            request.get(this.url, callback);
-        });
+        console.warn(`Requesting: ${this.simpleUrl}`);
+        const body = await got.get(this.url).text();
+        this.cacheManager.addFile(this.filename, body);
+        return new ParsedAnswer(this.url, body);
     }
 }
 
@@ -56,27 +52,27 @@ class RequestCacheManager {
     private folderPath: string;
 
     constructor(nullablePath?: string) {
-        this.folderPath = nullablePath || path.join(__dirname, 'request_cache');
+        this.folderPath = nullablePath || 'request_cache';
         this.ensureDirSync();
     }
 
     private getFilePath (filename: string): string {
-        return path.join(this.folderPath, filename);
+        return join(this.folderPath, filename);
     }
 
     private hasFile (filename: string): boolean {
         const path = this.getFilePath(filename);
-        return fs.existsSync(path) && fs.statSync(path).isFile();
+        return existsSync(path) && statSync(path).isFile();
     }
 
     private getFileAge (filename: string): number {
         const now = new Date().getTime() / 1000 / 60;
-        const fileTime = fs.statSync(this.getFilePath(filename)).mtime.getTime() / 1000 / 60;
+        const fileTime = statSync(this.getFilePath(filename)).mtime.getTime() / 1000 / 60;
         return now - fileTime;
     }
 
     private invalidCache (filename: string) {
-        fs.unlinkSync(this.getFilePath(filename));
+        unlinkSync(this.getFilePath(filename));
     }
 
     public hasCachedFile (filename: string): boolean {
@@ -91,16 +87,16 @@ class RequestCacheManager {
     }
 
     public getCachedFile (filename: string): string {
-        return fs.readFileSync(this.getFilePath(filename), "utf8");
+        return readFileSync(this.getFilePath(filename), "utf8");
     }
 
     public addFile (filename: string, body: any) {
-        fs.writeFileSync(this.getFilePath(filename), body);
+        writeFileSync(this.getFilePath(filename), body);
     }
 
     private ensureDirSync() {
         try {
-            return fs.mkdirSync(this.folderPath);
+            return mkdirSync(this.folderPath, { recursive: true });
         } catch (err) {
             if (err.code !== 'EEXIST') throw err
         }

@@ -1,4 +1,4 @@
-import { getText } from './Parser';
+import { getText } from './cheerioHelpers';
 
 export default class LinkString {
 
